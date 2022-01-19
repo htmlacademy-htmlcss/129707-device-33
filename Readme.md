@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Артём Пономарёв](https://up.htmlacademy.ru/htmlcss/33/user/129707).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Корбут](https://htmlacademy.ru/profile/korbutds).
 
 ---
 
