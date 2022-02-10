@@ -11,13 +11,13 @@
 <body>
   <header class="page-header">
     <a class="header-logo" href="#">
-      <img class="page-header-logo" src="" alt="Логотип интернет магазина Девайс" />
+      <img class="page-header-logo" src="images/logo-header.svg" width="145" height="36" alt="Логотип интернет магазина Девайс." />
     </a>
     <form action="https://echo.htmlacademy.ru/" method="post">
       <input type="text" placeholder="Текст поиска" name="catalog-search">
       <button type="submit">Найти</button>
     </form>
-
+    <div id='123'></div>
     <nav class="navigation">
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
@@ -60,7 +60,7 @@
     <section class="devices">
       <h2 class="devices-title visually-hidden">Галерея девайсов</h2>
 
-      <img class="slider-image visually-hidden" src="" alt="Примеры девайса">
+      <img class="slider-image visually-hidden" src="images/slider/slider-1.png" width="560" height="560" alt="Примеры девайса.">
       <button class="slider-button slider-prev" type="button">
         <span class="visually-hidden">Предыдущее фото</span>
       </button>
@@ -95,43 +95,39 @@
         </li>
       </ol>
 
-      <table class="device-characteristics">
-        <tr>
-          <th>Дальность полета</th>
-          <th>Радиус поражения</th>
-        </tr>
-        <tr>
-          <td>800 м</td>
-          <td>50 м</td>
-        </tr>
-      </table>
+      <dl class="device-characteristics">
+        <dt>Дальность полета</dt>
+        <dd>800 м</dd>
+        <dt>Радиус поражения</dt>
+        <dd>50 м</dd>
+      </dl>
     </section>
 
     <section class="categories">
       <h2 class="visually-hidden">Категории товаров</h2>
       <ul class="categories-list">
         <li class="categories-item">
-          <img src="" alt="Очки виртуальной реальности" />
+          <img src="images/categories/category-1.svg" width="97" height="55" alt="Очки виртуальной реальности." />
           <span class="category-description">Виртуальная реальность</span>
         </li>
         <li class="categories-item">
-          <img src="" alt="Монопод для селфи" />
+          <img src="images/categories/category-2.svg" width="86" height="117" alt="Монопод для селфи." />
           <span class="category-description">Моноподы для селфи</span>
         </li>
         <li class="categories-item">
-          <img src="" alt="Экшн-камера" />
+          <img src="images/categories/category-3.svg" width="71" height="87"  alt="Экшн-камера." />
           <span class="category-description">Экшн-камеры</span>
         </li>
         <li class="categories-item">
-          <img src="" alt="Фитнес-браслет" />
+          <img src="images/categories/category-4.svg" width="107" height="65"  alt="Фитнес-браслет." />
           <span class="category-description">Фитнес-браслеты</span>
         </li>
         <li class="categories-item">
-          <img src="" alt="Умные часы" />
+          <img src="images/categories/category-5.svg" width="56" height="98"  alt="Умные часы." />
           <span class="category-description">Умные часы</span>
         </li>
         <li class="categories-item">
-          <img src="" alt="Квадрокоптер" />
+          <img src="images/categories/category-6.svg" width="132" height="69"  alt="Квадрокоптер." />
           <span class="category-description">Квадрокоптеры</span>
         </li>
       </ul>
@@ -158,14 +154,14 @@
           к вашему подъезду совершенно бесплатно! Ведь
           мы неплохо заработаем, поднимая его на ваш этаж.
         </p>
-        <img src="" alt="Курьер" />
+        <img src="images/postman.png" width="136" height="164" alt="Курьер." />
       </div>
     </section>
 
     <section class="special-service">
       <h2 class="visually-hidden">Доставка редкого товара</h2>
       <button class="delivery-btn" type="button">
-        <img src="" alt="Машина" />
+        <img src="images/car.svg" width="47" height="31"  alt="Машина." />
         <span>Доствим редкий товар на заказ</span>
       </button>
     </section>
@@ -230,8 +226,8 @@
   </main>
 
   <footer class="page-footer">
-    <a class="footer-logo" href="#">
-      <img class="page-footer-logo" src="index.html" alt="Логотип интернет магазина Девайс" />
+    <a class="footer-logo" href="index.html">
+      <img class="page-footer-logo" src="images/logo-footer.svg" width="145" height="36" alt="Логотип интернет магазина Девайс." />
     </a>
 
     <section class="footer-contact">
@@ -286,7 +282,9 @@
       </address>
     </section>
 
-    <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
+    <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+      <img src="images/logo-html-academy.svg" wigth="115" height="33" alt="Переход на сайт HTML-Академии.">
+    </a>
 
   </footer>
 </body>
